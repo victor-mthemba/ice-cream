@@ -1,16 +1,17 @@
 describe('Ice cream building' , function(){
-    it('should be able to return  correct price if you want vanilla ice cream with caramel topping' , function(){
+    it('should be able to return  correct price if you want vanilla ice cream with Crumed peanuts and plain cone' , function(){
         var instance = IceCream();
-        instance.addPrice("Vanilla", "Caramel"); 
+        instance.addPrice("Vanilla", "Crumbed peanuts", "Plain Cone"); 
 
-        assert.equal(instance.getPrice(), 18.00);
+        assert.equal(instance.getPrice(), 20.50);
     });
 
-    it('should be able to return  correct price if you want Strawberry ice cream with caramel topping' , function(){
+    it('should be able to return  correct price if you want chocolate ice cream with caramel dip topping and plain cone' , function(){
         var instance = IceCream();
-        instance.addPrice("Strawberry", "Caramel"); 
+        instance.addPrice("Chocolate", "Caramal dip", "Plain Cone"); 
 
-        assert.equal(instance.getPrice(), 18.60);
+        assert.equal(instance.getPrice(), 28.00);
     });
+
 
 });

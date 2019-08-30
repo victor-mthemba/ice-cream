@@ -248,3 +248,13 @@ p {
     max-width: 60rem;
   }
 }
+
+.price-message {
+  width: 300px;
+  border: solid black;
+  padding: 20px;
+  margin: 20px;
+}
+.mypad {
+  padding-top: 2em;
+}
