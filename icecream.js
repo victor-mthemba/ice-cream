@@ -60,13 +60,16 @@ function IceCream() {
 
         
 
-
-        if(currentFlavour.flavour === theFlavour && currentTopping.topping === theTopping && currentContainer.container === theContainer) {
-         
             thePrice += currentFlavour.price;
             thePrice += currentTopping.price;
             thePrice += currentContainer.price;
-        }
+
+        // if(currentFlavour.flavour === theFlavour && currentTopping.topping === theTopping && currentContainer.container === theContainer) {
+         
+        //     thePrice += currentFlavour.price;
+        //     thePrice += currentTopping.price;
+        //     thePrice += currentContainer.price;
+        // }
 
 
     }
