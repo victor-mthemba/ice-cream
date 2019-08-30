@@ -10,7 +10,7 @@ function Iceprice() {
     
     var flavours = document.querySelector(".FlavourType:checked");
     var container  = document.querySelector(".ContainerType:checked");
-    var toppings = document.querySelectorAll(".ToppingType:checked"); 
+    var toppings = document.querySelector(".ToppingType:checked"); 
 
     myPriceInstance.addPrice(flavours.value, toppings.value, container.value);
     outPrice.innerHTML = "R" + myPriceInstance.getPrice();

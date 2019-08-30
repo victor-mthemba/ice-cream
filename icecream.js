@@ -37,7 +37,7 @@ function IceCream() {
 
         for (let i = 0; i < toppingList.length; i++) {
             const topping = toppingList[i];
-            if(topping.topping == theTopping) {
+            if(topping.topping === theTopping) {
                currentTopping = topping;
 
             }
